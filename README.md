@@ -55,6 +55,8 @@ App created using [Django](https://www.djangoproject.com/ "Django").
 	I decided to use a viewset for the tracks in order to better handle the filters and the 2 extra endpoints required for the tracks (top 50 popularity tracks and tracks grouped by genres).
 	- **TrackViewSet**: Tracks view
 		- **allowed http methods**: ['get', 'post', 'patch', 'delete']
+		- **delete identifier**: To delete a track we need to pass the track's unique_id
+		- **filters**: We can filter by name and unique_id.
 		- **extra endpoints**:
 			- **top_populars**: This endpoint return the top 50 popular tracks.
 			- **grouped_tracks**: This endpoint return the tracks grouped by genres.
