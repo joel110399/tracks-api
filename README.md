@@ -60,15 +60,16 @@ App created using [Django](https://www.djangoproject.com/ "Django").
 			- **grouped_tracks**: This endpoint return the tracks grouped by genres.
 
 - **Urls**
-To run the endpoints correctly we have to place the development server path followed by the endpoint name, for example:
-	`http://127.0.0.1:8000/artist`
+To run the endpoints correctly we have to place the development server path followed by the endpoint name, for example:  `http://127.0.0.1:8000/artist`
 
-The paths for each endpoints are the followings:
-	- artist: To list and create artists.
-	- genre: To list and create genres.
-	- track: To list, create, update and detele tracks.
-	- top_populars: To list the top 50 popular tracks.
-	- grouped_tracks: To list the tracks grouped by genres.
+	- The paths for each endpoints are the followings:
+
+		-  artist: To list and create artists.
+		- genre: To list and create genres.
+		- track: To list, create, update and detele tracks.
+		- top_populars: To list the top 50 popular tracks.
+		- grouped_tracks: To list the tracks grouped by genres.
+
 
 
 
