@@ -24,8 +24,6 @@ class Command(BaseCommand):
                 if serializer.is_valid():
                     serializer.save()
                     print('Done')
-                else:
-                    print(serializer.errors)
 
 
         def create_genres(*args, **kwargs):
@@ -44,8 +42,6 @@ class Command(BaseCommand):
                     if serializer.is_valid():
                         serializer.save()
                         print('Done')
-                    else:
-                        print(serializer.errors)
 
         
         def create_tracks(*args, **kwargs):
@@ -72,8 +68,6 @@ class Command(BaseCommand):
                 if serializer.is_valid():
                     serializer.save()
                     print('Done')
-                else:
-                    print(serializer.errors)
 
 
         create_artists()        
